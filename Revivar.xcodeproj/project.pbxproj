@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1851039A29CC2F1A00F101CB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851039929CC2F1A00F101CB /* SettingsViewController.swift */; };
+		1851039C29CC619400F101CB /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851039B29CC619400F101CB /* DeveloperViewController.swift */; };
+		18826B0029CB2ACF0012DBBE /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18826AFF29CB2ACF0012DBBE /* ThankYouViewController.swift */; };
+		18826B0429CB2C650012DBBE /* DisplayCardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18826B0329CB2C650012DBBE /* DisplayCardProtocol.swift */; };
+		18826B0729CB2D900012DBBE /* CardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18826B0629CB2D900012DBBE /* CardModels.swift */; };
 		1885520C29CAFBCD00B1B96C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885520B29CAFBCD00B1B96C /* AppDelegate.swift */; };
 		1885520E29CAFBCD00B1B96C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885520D29CAFBCD00B1B96C /* SceneDelegate.swift */; };
-		1885521029CAFBCD00B1B96C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885520F29CAFBCD00B1B96C /* ViewController.swift */; };
-		1885521329CAFBCD00B1B96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885521129CAFBCD00B1B96C /* Main.storyboard */; };
-		1885521529CAFBCF00B1B96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1885521429CAFBCF00B1B96C /* Assets.xcassets */; };
+		1885521029CAFBCD00B1B96C /* CardGenaratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885520F29CAFBCD00B1B96C /* CardGenaratorViewController.swift */; };
 		1885521829CAFBCF00B1B96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885521629CAFBCF00B1B96C /* LaunchScreen.storyboard */; };
+		1885522229CB0DAB00B1B96C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885522129CB0DAB00B1B96C /* Extension.swift */; };
+		18D2BAA329CBAA96001E671B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D2BAA229CBAA96001E671B /* Assets.xcassets */; };
+		18D2BAA729CBCEE7001E671B /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D2BAA629CBCEE7001E671B /* win.mp3 */; };
+		18D2BAA929CBCF03001E671B /* jermaine1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D2BAA829CBCF03001E671B /* jermaine1.mp3 */; };
+		18D2BAAD29CBCF59001E671B /* Moonshine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D2BAAC29CBCF59001E671B /* Moonshine.mp3 */; };
+		18D2BAAF29CBD075001E671B /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2BAAE29CBD075001E671B /* SoundModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1851039929CC2F1A00F101CB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1851039B29CC619400F101CB /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
+		18826AFF29CB2ACF0012DBBE /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		18826B0329CB2C650012DBBE /* DisplayCardProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCardProtocol.swift; sourceTree = "<group>"; };
+		18826B0629CB2D900012DBBE /* CardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModels.swift; sourceTree = "<group>"; };
 		1885520829CAFBCD00B1B96C /* Revivar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revivar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1885520B29CAFBCD00B1B96C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1885520D29CAFBCD00B1B96C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1885520F29CAFBCD00B1B96C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1885521229CAFBCD00B1B96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1885521429CAFBCF00B1B96C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1885520F29CAFBCD00B1B96C /* CardGenaratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGenaratorViewController.swift; sourceTree = "<group>"; };
 		1885521729CAFBCF00B1B96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1885521929CAFBCF00B1B96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1885522129CB0DAB00B1B96C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		18D2BAA229CBAA96001E671B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D2BAA629CBCEE7001E671B /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		18D2BAA829CBCF03001E671B /* jermaine1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jermaine1.mp3; sourceTree = "<group>"; };
+		18D2BAAC29CBCF59001E671B /* Moonshine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Moonshine.mp3; sourceTree = "<group>"; };
+		18D2BAAE29CBD075001E671B /* SoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18826B0129CB2AE70012DBBE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18826B0229CB2C3C0012DBBE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18826B0329CB2C650012DBBE /* DisplayCardProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		18826B0529CB2D7A0012DBBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18826B0629CB2D900012DBBE /* CardModels.swift */,
+				18D2BAAE29CBD075001E671B /* SoundModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		188551FF29CAFBCD00B1B96C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +98,56 @@
 		1885520A29CAFBCD00B1B96C /* Revivar */ = {
 			isa = PBXGroup;
 			children = (
-				1885520B29CAFBCD00B1B96C /* AppDelegate.swift */,
-				1885520D29CAFBCD00B1B96C /* SceneDelegate.swift */,
-				1885520F29CAFBCD00B1B96C /* ViewController.swift */,
-				1885521129CAFBCD00B1B96C /* Main.storyboard */,
-				1885521429CAFBCF00B1B96C /* Assets.xcassets */,
+				18D2BAA529CBCEB2001E671B /* Sound */,
+				18826B0529CB2D7A0012DBBE /* Model */,
+				18826B0229CB2C3C0012DBBE /* Protocol */,
+				18826B0129CB2AE70012DBBE /* Network */,
+				1885522329CB0DC900B1B96C /* Others */,
+				1885522029CB0D9500B1B96C /* Resources */,
+				1885521F29CB06F500B1B96C /* Controllers */,
+				1885520F29CAFBCD00B1B96C /* CardGenaratorViewController.swift */,
+				18D2BAA229CBAA96001E671B /* Assets.xcassets */,
 				1885521629CAFBCF00B1B96C /* LaunchScreen.storyboard */,
 				1885521929CAFBCF00B1B96C /* Info.plist */,
 			);
 			path = Revivar;
+			sourceTree = "<group>";
+		};
+		1885521F29CB06F500B1B96C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18826AFF29CB2ACF0012DBBE /* ThankYouViewController.swift */,
+				1851039929CC2F1A00F101CB /* SettingsViewController.swift */,
+				1851039B29CC619400F101CB /* DeveloperViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1885522029CB0D9500B1B96C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1885522129CB0DAB00B1B96C /* Extension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1885522329CB0DC900B1B96C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1885520D29CAFBCD00B1B96C /* SceneDelegate.swift */,
+				1885520B29CAFBCD00B1B96C /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		18D2BAA529CBCEB2001E671B /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				18D2BAAC29CBCF59001E671B /* Moonshine.mp3 */,
+				18D2BAA829CBCF03001E671B /* jermaine1.mp3 */,
+				18D2BAA629CBCEE7001E671B /* win.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D2BAA929CBCF03001E671B /* jermaine1.mp3 in Resources */,
+				18D2BAAD29CBCF59001E671B /* Moonshine.mp3 in Resources */,
 				1885521829CAFBCF00B1B96C /* LaunchScreen.storyboard in Resources */,
-				1885521529CAFBCF00B1B96C /* Assets.xcassets in Resources */,
-				1885521329CAFBCD00B1B96C /* Main.storyboard in Resources */,
+				18D2BAA329CBAA96001E671B /* Assets.xcassets in Resources */,
+				18D2BAA729CBCEE7001E671B /* win.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +223,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1885521029CAFBCD00B1B96C /* ViewController.swift in Sources */,
+				1885521029CAFBCD00B1B96C /* CardGenaratorViewController.swift in Sources */,
 				1885520C29CAFBCD00B1B96C /* AppDelegate.swift in Sources */,
+				18826B0429CB2C650012DBBE /* DisplayCardProtocol.swift in Sources */,
 				1885520E29CAFBCD00B1B96C /* SceneDelegate.swift in Sources */,
+				1885522229CB0DAB00B1B96C /* Extension.swift in Sources */,
+				18D2BAAF29CBD075001E671B /* SoundModel.swift in Sources */,
+				18826B0729CB2D900012DBBE /* CardModels.swift in Sources */,
+				1851039C29CC619400F101CB /* DeveloperViewController.swift in Sources */,
+				18826B0029CB2ACF0012DBBE /* ThankYouViewController.swift in Sources */,
+				1851039A29CC2F1A00F101CB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1885521129CAFBCD00B1B96C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1885521229CAFBCD00B1B96C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1885521629CAFBCF00B1B96C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,11 +371,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6DLB4DD6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Revivar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FindMe;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "can access your app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,11 +400,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6DLB4DD6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Revivar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FindMe;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "can access your app";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
